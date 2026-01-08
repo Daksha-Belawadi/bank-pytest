@@ -1,4 +1,4 @@
-def bank_details(account_number,account_holder_name,account_type,balance):
+def bank_details(Account_number,Account_holder_name,Account_type,Balance):
     result = (
         f"Account number: {account_number}\n"
         f"Account holder name: {account_holder_name}\n"
