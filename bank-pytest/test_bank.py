@@ -7,6 +7,5 @@ def test_bank_details():
             "Account_type = Current\n"
             "Balance = 50000\n"
         )
-        
         assert bank_details (515,"Daksha","Current",50000) == expected_output
 
